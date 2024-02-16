@@ -1,0 +1,114 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body {
+        font-family: "Poppins", sans-serif;
+}
+.navbar{
+    padding: 30px;
+    background-color: #ddd;
+
+}
+.book-box{
+    width: 25%;
+    padding: 15px;
+    background-color:blanchedalmond;
+    border-radius: 10px;
+    margin: 30px;
+    display: inline-block;
+    vertical-align: top;
+   
+}
+.container{
+    padding: 20px;
+}
+.book-box h1{
+    color:#096647;
+}
+.book-box button{
+    background-color:#096647;
+    border-radius: 10px;
+    padding: 5px 10px 5px 10px;
+    border: none;
+
+}
+.add{
+    background-color: #096647;
+    padding: 20px 30px 20px 30px  ;
+    border-radius: 50%;
+    font-size: 40px;
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    border: none;
+
+}
+.popup-over{
+    background-color: black;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    opacity: 0.7;
+    z-index: 1;
+    display: none;
+
+
+}
+.addtitle{
+    background-color:#096647;
+    width: 30%;
+    padding: 40px;
+    height: 300px;
+    border-radius: 10px;
+    position: absolute;
+    top:30% ;
+    left: 35%;
+    z-index: 2;
+    display: none;
+
+}
+.addtitle input{
+    background-color: transparent;
+    font-size: 25px;
+    border: none;
+    border-bottom: 2px dashed black;
+    width: 100%;
+    margin: 5px;
+    padding: 5px;
+}
+.addtitle textarea{
+    background-color: transparent;
+    font-size: 25px;
+    
+    border: 2px dashed black;
+    width: 100%;
+    margin: 5px;
+    padding: 5px;
+}
+.addtitle input::placeholder{
+    color: black;
+}
+.addtitle textarea::placeholder{
+    color: black;
+}
+.addtitle button{
+    background-color: black;
+    color: white;
+    padding: 10px 20px 10px 20px;
+    border: none;
+    margin: 5px;
+}
+.addtitle input:focus{
+    outline: none;
+
+}
+.addtitle textarea:focus{
+    outline: none;
+
+}
+.add:hover{
+    cursor: pointer;
+}
